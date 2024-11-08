@@ -1,5 +1,5 @@
 token:
-  expiration_time: 86400000
+  expiration_time: 86400005
   secret: jFZT5UGTocFSQpZ9vUst6Xmy4g4daUfJgdjbbzc0v814sfLKdgkjnbaca142dgJNgwkjcva1984ldf9
 
 gateway:
