@@ -1,0 +1,18 @@
+token:
+  expiration_time: 86400010
+  secret: "{cipher}eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI2NmMxNDE5NS0wN2MyLTRlNjAtOTMyOC02MzNiNGQ3YTY0ZTgiLCJleHAiOjE3MzEyNTAyOTl9.6T6dbGI5L97i6cwW1IFLU315dGT68kKgWb3TqNnKRzgirPHrKlt3dow7NXgitrpdqW4QBKbjCPAWc2Zbg5YfNg"
+
+gateway:
+  ip: 172.18.0.5
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.18.0.6:3306/mydb
+    username: root
+    password: cm71806447*
+
+order_service:
+  url: http://order-service/order-service/%s/orders
+  exception:
+    orders_is_empty: User's orders is Empty.
